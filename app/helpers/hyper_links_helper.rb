@@ -1,0 +1,2 @@
+module HyperLinksHelper
+end

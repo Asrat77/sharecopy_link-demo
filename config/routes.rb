@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :hyper_links
+  resources :profiles
+  resources :users
+  resources :posts
   get 'inertia-example', to: 'inertia_example#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
